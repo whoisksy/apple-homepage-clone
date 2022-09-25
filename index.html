@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+
+    <!--Import Font Awesome Icon-->
+    <script src="https://kit.fontawesome.com/80be272ac8.js" crossorigin="anonymous"></script>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Apple</title>
+</head>
+<style>
+    .nav-bg{
+        background-color: rgba(0,0,0);
+    }
+    nav.nav-center ul {
+        text-align: center;
+    }
+    nav.nav-center ul li {
+        display: inline;
+        float: none;
+    }
+    nav.nav-center ul li a {
+        display: inline-block;
+        font-size: 0.8rem;
+        color: lightgrey;
+    }
+    nav.nav-center ul li a:hover {
+        color: white;
+    }
+
+
+    nav.nav-center ul li a i {
+        display: inline-block;
+        font-size: 1.0rem;
+    }
+
+    .transparent{
+        background-color: rgba(0,0,0,0.8) !important;
+        backdrop-filter: blur(15px) brightness(100%) saturate(70%);
+    }
+    .large-product{
+        height:75vh;
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .small-product{
+        height:66vh;
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .product-image, .image-div{
+        height: 51vh;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .small-img{
+        height: 44.5vh;
+    }
+
+    .btn{
+        border-radius: 20px;
+    }
+
+    .row .left-col{
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    .row .right-col{
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
+    .tv-shows{
+        height: 70vh;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    nav {
+    height: 5vh;
+    line-height: 5vh;
+    }
+
+    nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+        height: 5vh;
+        line-height: 5vh;
+    }
+
+    nav .button-collapse i {
+        height: 5vh;
+        line-height: 5vh;
+    }
+
+    nav .brand-logo { 
+        font-size: 1.6rem; 
+    }
+
+    @media only screen and (min-width: 601px){
+        nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+            height: 5vh;
+            line-height: 5vh;
+        }
+    }
+    footer{
+        font-size: 12px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    
+</style>
+<body>
+    <div class="navbar-fixed nav-bg">
+        <nav class="nav-center transparent">
+            <div class="nav-wrapper">
+              <ul class="hide-on-med-and-down">
+                <li><a href=""><i class="fa-brands fa-apple"></i></a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="">Mac</a></li>
+                <li><a href="">iPad</a></li>
+                <li><a href="">iPhone</a></li>
+                <li><a href="">Watch</a></li>
+                <li><a href="">AirPods</a></li>
+                <li><a href="">TV & Home</a></li>
+                <li><a href="">Only on Apple</a></li>
+                <li><a href="">Accesories</a></li>
+                <li><a href="">Support</a></li>
+                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+              </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="black white-text center large-product">
+        <h1>iPhone 14 Pro</h1>
+        <h4>Pro. Beyond.</h4>
+        <a href="#!" class="blue-text">Learn more <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="#!" class="blue-text">Buy <i class="fa-solid fa-chevron-right"></i></a>
+        <div class="image-div col s12"><img class="product-image" src="img/iphone-14-pro.png"></div>
+    </div>
+
+    <div class="grey lighten-5 center large-product">
+        <h1>iPhone 14</h1>
+        <h4>Big and bigger.</h4>
+        <a href="#!" class="blue-text">Learn more <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="#!" class="blue-text">Shop <i class="fa-solid fa-chevron-right"></i></a>
+        <div class="image-div"><img class="product-image" src="img/iphone-14.png"></div>
+    </div>
+
+    <div class="grey lighten-5 center large-product">
+        <h3><b><i class="fa-brands fa-apple"></i> WATCH</b></h3>
+        <h5 class="orange-text">ULTRA</h5>
+        <h4>Adventure awaits.</h4>
+        <a href="#!" class="blue-text">Learn more <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="#!" class="blue-text">Buy <i class="fa-solid fa-chevron-right"></i></a>
+        <div class="image-div"><img class="product-image" style="height: 50.5vh;" src="img/watch-ultra.png"></div>
+    </div>
+
+    <div class="row">
+        <div class="col m6 s12 left-col">
+            <div class="black white-text center small-product">
+                <h3>AirPods Pro</h3>
+                <h5>Rebuild from the sound up.</h5>
+                <a href="#!" class="blue-text">Learn more <i class="fa-solid fa-chevron-right"></i></a>
+                <a href="#!" class="blue-text">Buy <i class="fa-solid fa-chevron-right"></i></a>
+                <div class="image-div"><img class="product-image" style="height: 48.5vh;" src="img/airpods-pro.png"></div>
+            </div>
+        </div>
+        <div class="col m6 s12 right-col">
+            <div class="black white-text center small-product">
+                <h3><i class="fa-brands fa-apple"></i> WATCH</h3>
+                <h6 class="red-text">SERIES 8</h6>
+                <h5>A healthy lead ahead.</h5>
+                <a href="#!" class="blue-text">Learn more <i class="fa-solid fa-chevron-right"></i></a>
+                <a href="#!" class="blue-text">Buy <i class="fa-solid fa-chevron-right"></i></a>
+                <div class="image-div"><img class="product-image small-img" src="img/watch.png"></div>
+            </div>
+        </div>
+
+        <div class="col m6 s12 left-col">
+            <div class="grey lighten-5 center small-product">
+                <h3><i class="fa-brands fa-apple"></i> WATCH</h3>
+                <h6 class="red-text">SE</h6>
+                <h5>A great deal to love.</h5>
+                <a href="#!" class="blue-text">Learn more <i class="fa-solid fa-chevron-right"></i></a>
+                <a href="#!" class="blue-text">Buy <i class="fa-solid fa-chevron-right"></i></a>
+                <div class="image-div"><img class="product-image small-img" src="img/watch-se.png"></div>
+            </div>
+        </div>
+        <div class="col m6 s12 right-col">
+            <div class="grey lighten-4 center small-product">
+                <h3><i class="fa-brands fa-apple"></i> Fitness+</h3>
+                <h5>Fitness for everyone.<br>
+                Now all you need is iPhone.</h5>
+                <a href="#!" class="blue-text">Learn more <i class="fa-solid fa-chevron-right"></i></a>
+                <a href="#!" class="blue-text">Nofity me <i class="fa-solid fa-chevron-right"></i></a>
+                <div class="image-div"><img class="product-image small-img" src="img/fitness-plus.png"></div>
+            </div>
+        </div>
+        
+        <div class="col m6 s12 left-col">
+            <div class="grey lighten-4 center small-product">
+                <h3><i><b>Get supercharged<br>for college.</b></i></h3>
+                <h5>Last chance to get a giftcard.<sup>2</sup></h5>
+                <a href="#!" class="blue-text">Shop now <i class="fa-solid fa-chevron-right"></i></a>
+                <div class="image-div"><img class="product-image small-img" style="height: 42vh;" src="img/college.png"></div>
+            </div>
+        </div>
+        <div class="col m6 s12 right-col">
+            <div class="grey lighten-5 center small-product">
+                <h3><i class="fa-brands fa-apple"></i> Card</h3>
+                <h5>Get up to 3% Daily Cash back<br>
+                with every purchase.</h5>
+                <a href="#!" class="blue-text">Learn more <i class="fa-solid fa-chevron-right"></i></a>
+                <a href="#!" class="blue-text">Nofity me <i class="fa-solid fa-chevron-right"></i></a>
+                <div class="image-div"><img class="product-image small-img" src="img/apple-card.png"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col m6 s12 carousel carousel-slider center tv-shows">
+        <div class="carousel-item white-text tv-shows" href="#one!">
+            <img src="img/bg-1.png">
+            <div class="carousel-fixed-item">
+                <button class="btn white black-text waves-effect waves-blue">
+                    Stream now <i class="fa-solid fa-circle-play"></i>
+                </button>
+                <p><b>Comedy.</b> 4 Emmy &reg; wins including Outstanding Comedy.</p>
+            </div>
+        </div>
+        <div class="col m6 s12 carousel-item white-text tv-shows" href="#two!">
+            <img src="img/bg-2.png">
+            <div class="carousel-fixed-item">
+                <button class="btn white black-text waves-effect waves-blue">
+                    Stream now <i class="fa-solid fa-circle-play"></i>
+                </button>
+                <p><b>Drama.</b> Family. It's a killer.</p>
+            </div>
+        </div>
+        <div class="col m6 s12 carousel-item white-text tv-shows" href="#three!">
+            <img src="img/bg-3.png">
+            <div class="carousel-fixed-item">
+                <button class="btn white black-text waves-effect waves-blue">
+                    Stream now <i class="fa-solid fa-circle-play"></i>
+                </button>
+                <p><b>Animation.</b> Sometimes all you need is for everything to go wrong.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer grey lighten-4 grey-text text-darken-4">
+            <div class="container grey-text darken-4">
+                <p>
+                1. iPhone 8 or later users may subscribe without an Apple Watch later this fall.
+                </p>
+                <p>2. Qualified Purchasers receive an Apple Gift Card when they purchase an eligible Mac or iPad at a Qualifying Location. Only one Apple Gift Card per eligible Mac or iPad per Qualified Purchaser. Offer subject to availability. While supplies last. Qualified Purchasers shall receive a discount equal to the value of the Apple Gift Card off the price of the eligible Mac or iPad, but will be charged for all items in their cart, including the Apple Gift Card. Important notice regarding the checkout receipt and monthly statement for Apple Card Monthly Installment (ACMI) purchases with this promotion: Qualified Purchasers selecting ACMI (a 0% APR payment option) as payment type at checkout shall receive a discount equal to the value of the Apple Gift Card off the price of the eligible Mac or iPad. This will result in one ACMI installment plan over 12 months for the eligible iPad or Mac discounted by the instant credit, and a second ACMI installment plan over 12 months for the full price of the Apple Gift Card. The total combined amount charged over the two separate ACMI installment plans will reflect the original full retail price of the Eligible Product. Separately, Qualified Purchasers will receive and be charged for the Apple Gift Card in the amount of the applicable discount off the eligible Mac or iPad. ACMI is subject to credit approval and credit limit. Variable APRs for Apple Card other than ACMI range from 13.24% to 24.24% based on creditworthiness. Rates as of August 1, 2022. If you choose the pay‑in‑full or one‑time‑payment option for an ACMI‑eligible purchase instead of choosing ACMI as the payment option at checkout, that purchase will be subject to the variable APR assigned to your Apple Card. Taxes and shipping are not included in ACMI transactions and are subject to your standard purchase APR. See the Apple Card Customer Agreement at https://www.goldmansachs.com/terms-and-conditions/Apple-Card-Customer-Agreement.pdf for more information. ACMI is not available for purchases made online at the following special stores: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple at Work for small businesses; Government, and Veterans and Military Purchase Programs, or on refurbished devices. Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch. Available for qualifying applicants in the United States. If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about accessing this offer or applying for Apple Card. This offer cannot be combined with the Apple Employee Purchase Plan or business loyalty pricing. Availability of in‑store promotion offerings may be limited by Apple Store location closures as a result of COVID‑19. Additional restrictions apply. View full terms and conditions of offer here.
+                </p>
+                <p>iPhone 14 Plus is subject to FCC rules as well as consumer protection, contractual, and other provisions of federal or state law. It cannot be sold or delivered until the FCC’s authorization process is complete.
+                </p>
+                <p>A subscription is required for Apple Fitness+.
+                </p>
+                <p>Apple Fitness+ requires iOS 14.3 or later, iPadOS 14.3 or later, watchOS 7.2 or later, and tvOS 14.3 or later.
+                </p>
+                <p>To get the newest features, make sure your devices are running the latest software version.
+                </p>
+                <p>To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with the latest version of iOS or iPadOS. Update to the latest version by going to Settings > General > Software Update. Tap Download and Install.
+                </p>
+                <p>Available for qualifying applicants in the United States.
+                </p>
+                <p>Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+                </p>
+                <p>Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.
+                </p>
+            </div>
+        <div class="divider"></div>
+        <div class="footer-copyright grey lighten-4">
+          <div class="container grey-text text-darken-5">
+                Copyright © 2022 Apple Inc. All rights reserved.
+                <a class="grey lighten-4 grey-text text-draken-5 right" href="#!">
+                    Privacy Policy | Terms of Use | Sales and Refunds | Legal | Site Map
+                </a>
+          </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+        $('.parallax').parallax();
+
+        $('.carousel.carousel-slider').carousel({
+            //indicators: true
+        });
+        autoplay();
+        function autoplay() {
+            $('.carousel').carousel('next');
+            setTimeout(autoplay, 4000);
+        }
+
+        });
+
+    </script>
+</body>
+</html>
